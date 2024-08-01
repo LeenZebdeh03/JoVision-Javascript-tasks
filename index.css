@@ -1,0 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    background-color: rgb(122, 192, 168);
+    padding: 7px;
+    border: none;
+    border-color: green;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    width: 100px;
+
+}
+button:hover{
+    cursor: pointer;
+}
+h1{
+    font: size 500px;
+    font-style: italic;
+}
